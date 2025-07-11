@@ -1,0 +1,125 @@
+/* Barra azul no topo */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6fa;
+}
+
+.header {
+    width: 100%;
+    background: #1565c0;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px #0001;
+}
+
+/* Centralizar conteúdo principal */
+.index, .registro, .login, .cadastrar-produto {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 16px #0002;
+    padding: 30px 40px;
+}
+
+h2 {
+    text-align: center;
+    color: #1565c0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0 30px 0;
+    background: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 10px;
+    text-align: center;
+}
+
+th {
+    background: #1976d2;
+    color: #fff;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background: #e3f0ff;
+}
+
+tr:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+/* Botões destacados */
+button, .btn {
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 22px;
+    margin: 8px 5px 0 0;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-weight: bold;
+    box-shadow: 0 2px 8px #0001;
+}
+
+button:hover, .btn:hover {
+    background: #0d47a1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+    padding: 8px 10px;
+    border: 1px solid #b0bec5;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #f4f6fa;
+}
+
+label {
+    font-weight: bold;
+    color: #1976d2;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login-footer, .registro-footer {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.login-footer a, .registro-footer a {
+    color: #1976d2;
+    font-weight: bold;
+    margin: 0 8px;
+}
+
+@media (max-width: 600px) {
+    .index, .registro, .login, .cadastrar-produto {
+        padding: 18px 5vw;
+    }
+    table, th, td {
+        font-size: 0.95rem;
+    }
+}
