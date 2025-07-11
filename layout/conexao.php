@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$db   = 'ecommerce'; // Troque pelo nome do seu banco
-$user = 'root';          // Usuário padrão do XAMPP
-$pass = 'eumesmo';              // Senha padrão do XAMPP é vazia
+$db   = 'ecommerce'; 
+$user = 'root';          
+$pass = 'eumesmo';        
 $charset = 'utf8mb4';
 
 try {

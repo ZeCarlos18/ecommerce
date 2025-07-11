@@ -1,4 +1,3 @@
-/* Barra azul no topo */
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -17,7 +16,6 @@ body {
     box-shadow: 0 2px 8px #0001;
 }
 
-/* Centralizar conteúdo principal */
 .index, .registro, .login, .cadastrar-produto {
     max-width: 500px;
     margin: 40px auto;
@@ -62,7 +60,6 @@ tr:nth-child(odd) {
     background: #f9f9f9;
 }
 
-/* Botões destacados */
 button, .btn {
     background: #1976d2;
     color: #fff;
@@ -72,7 +69,6 @@ button, .btn {
     margin: 8px 5px 0 0;
     font-size: 1rem;
     cursor: pointer;
-    transition: background 0.2s;
     font-weight: bold;
     box-shadow: 0 2px 8px #0001;
 }
